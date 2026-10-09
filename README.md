@@ -4,6 +4,31 @@
 
 系统支持恒流（CC）、恒压（CV）、恒阻（CR）、恒功率（CW）、IV 曲线扫描、电池检测、本地串口屏、实体按键以及浏览器无线监控。
 
+## 实物展示
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="docs/images/electronic-load-enclosure.jpg" alt="智能电源特性分析仪整机与触摸屏界面"><br>
+      <sub>智能电源特性分析仪整机与触摸屏界面</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="docs/images/ch32v307-controller-board.jpg" alt="CH32V307 主控与信号调理板"><br>
+      <sub>CH32V307 主控与信号调理板</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="docs/images/electronic-load-power-board.jpg" alt="电子负载功率与采样板"><br>
+      <sub>电子负载功率与采样板</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="docs/images/battery-power-supply-board.jpg" alt="双节 18650 电池与多路电源转换板"><br>
+      <sub>双节 18650 电池与多路电源转换板</sub>
+    </td>
+  </tr>
+</table>
+
 ## 项目组成
 
 | 子项目 | MCU / 软件平台 | 核心职责 | 详细文档 |
