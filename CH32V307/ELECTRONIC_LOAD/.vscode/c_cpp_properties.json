@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "intelliSenseMode": "clang-x64",
+            "name": "Win32",
+            "cppStandard": "c++11",
+            "cStandard": "c99",
+            "compilerPath": "D:/RTThreadStudio/platform/env_released/env/tools/gnu_gcc/arm_gcc/mingw/bin/riscv-none-embed-gcc",
+            "includePath": [
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/applications",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/board",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/libcpu/cpu",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/libraries/hal_drivers",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/libraries/hal_drivers/config",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/libraries/hal_libraries/bmsis",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/libraries/hal_libraries/bmsis/include",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/libraries/hal_libraries/ch32v307_hal",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/libraries/hal_libraries/ch32v307_hal/include",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/packages/u8g2-official-latest/csrc",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/packages/u8g2-official-latest/sys/rt-thread/port",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/rt-thread/components/drivers/include",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/rt-thread/components/finsh",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/rt-thread/components/libc/compilers/common",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/rt-thread/components/libc/compilers/newlib",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/rt-thread/components/utilities/ulog",
+                "E:/Electronic/Project/ELECTRONIC_LOAD/CH32/ELECTRONIC_LOAD/rt-thread/include"
+            ],
+            "defines": [
+                "HAVE_CCONFIG_H",
+                "RT_USING_NEWLIB",
+                "__RTTHREAD__"
+            ]
+        }
+    ],
+    "version": 4
+}

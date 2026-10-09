@@ -1,5 +1,23 @@
+# Build outputs
 build/
-.vscode/
-*.bin
+Debug/
+dist/
+*.o
+*.obj
+*.d
 *.elf
+*.bin
+*.hex
 *.map
+*.lst
+*.pyc
+*.dblite
+*.rtmenus
+
+# RT-Thread package download cache
+packages/
+
+# Nested repositories and IDE noise
+**/.git/
+.DS_Store
+Thumbs.db

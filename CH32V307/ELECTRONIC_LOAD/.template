@@ -1,0 +1,12 @@
+
+Vendor=WCH
+MCU=CH32V307-RT-Thread
+Mcu Type=CH32V30x
+Link=WCH-Link
+Address=0x08000000
+Target Path=Debug\rtthread.bin
+Erase All=true
+Program=true
+Verify=true
+Reset=true
+CLKSpeed=1
