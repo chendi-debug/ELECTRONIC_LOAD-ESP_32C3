@@ -38,6 +38,10 @@
 
 两个目录是独立工程，使用不同工具链。修改、编译或烧录时请进入对应目录。
 
+## 硬件资料与器件选型
+
+仓库已整理关键模拟和电源器件的选型说明与原始规格书，包括 GS8592、OP07、XL1509-5.0E1、XL6008E1 和 AO3400A。详细用途、设计关注点及 PDF 资料入口见 [硬件器件选型与规格书](docs/hardware/README.md)。
+
 ## 系统架构
 
 ```mermaid
@@ -91,6 +95,9 @@ flowchart LR
 ```text
 .
 ├─ README.md                         # 本文：系统总体说明
+├─ docs/
+│  ├─ images/                        # 项目实物照片
+│  └─ hardware/                      # 器件选型说明与关键器件规格书
 ├─ ESP32/
 │  ├─ README.md                      # ESP32-C3 功能、任务和构建说明
 │  ├─ CMakeLists.txt                 # ESP-IDF 工程入口
